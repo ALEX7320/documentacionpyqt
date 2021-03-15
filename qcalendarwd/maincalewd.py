@@ -74,10 +74,6 @@ class MainCalewd(QMainWindow):
         self.spinCalYear = self.raiz.cald1.findChild(QSpinBox, "qt_calendar_yearedit")
         self.spinCalYear.valueChanged.connect(lambda year: print('cal spin Año',year))
 
-        # envento scroll en calendario *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*      
-        self.scrollcalen = self.raiz.cald1.findChild(QTableView, "qt_calendar_calendarview")
-        self.scrollcalen.viewport().installEventFilter(self)
-        
         # bloquear envento scroll en calendario *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
         self.scrollcalen = self.raiz.cald1.findChild(QTableView, "qt_calendar_calendarview")
         self.scrollcalen.viewport().installEventFilter(self)
