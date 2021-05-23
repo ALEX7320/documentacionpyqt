@@ -45,3 +45,18 @@ class MainCbox(QMainWindow):
 
 
 
+        # get item evento *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+        self.raiz.cboxc3.addItem('Python','Valor Python')
+        self.raiz.cboxc3.addItem('Java','Valor Java')
+        self.raiz.cboxc3.addItem('Php','Valor Php')
+        self.raiz.cboxc3.addItem('Ruby','Valor Ruby')
+
+        self.raiz.cboxc3.currentIndexChanged.connect(lambda index: 
+                print(f'Index: {index} / Valor Item: {self.raiz.cboxc3.itemData(index)}'))
+
+        # get item boton *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+        self.raiz.btnc5.clicked.connect(lambda: 
+            print(
+                self.raiz.cboxc3.itemData(self.raiz.cboxc3.currentIndex())
+            )
+        )

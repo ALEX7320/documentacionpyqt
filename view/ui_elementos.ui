@@ -89,7 +89,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.011
           <item row="0" column="1">
            <widget class="QStackedWidget" name="stackedWidget">
             <property name="currentIndex">
-             <number>22</number>
+             <number>1</number>
             </property>
             <widget class="QWidget" name="page">
              <layout class="QGridLayout" name="gridLayout_7">
@@ -337,9 +337,9 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.011
                    <widget class="QComboBox" name="cboxc1">
                     <property name="geometry">
                      <rect>
-                      <x>160</x>
-                      <y>110</y>
-                      <width>281</width>
+                      <x>50</x>
+                      <y>130</y>
+                      <width>181</width>
                       <height>51</height>
                      </rect>
                     </property>
@@ -388,8 +388,8 @@ font-size:15px;
                    <widget class="QComboBox" name="cboxc2">
                     <property name="geometry">
                      <rect>
-                      <x>540</x>
-                      <y>110</y>
+                      <x>300</x>
+                      <y>130</y>
                       <width>341</width>
                       <height>51</height>
                      </rect>
@@ -404,8 +404,8 @@ font-size:15px;
                    <widget class="QPushButton" name="btnc1">
                     <property name="geometry">
                      <rect>
-                      <x>540</x>
-                      <y>210</y>
+                      <x>300</x>
+                      <y>230</y>
                       <width>160</width>
                       <height>41</height>
                      </rect>
@@ -417,8 +417,8 @@ font-size:15px;
                    <widget class="QPushButton" name="btnc2">
                     <property name="geometry">
                      <rect>
-                      <x>720</x>
-                      <y>210</y>
+                      <x>480</x>
+                      <y>230</y>
                       <width>160</width>
                       <height>41</height>
                      </rect>
@@ -430,8 +430,8 @@ font-size:15px;
                    <widget class="QPushButton" name="btnc3">
                     <property name="geometry">
                      <rect>
-                      <x>540</x>
-                      <y>300</y>
+                      <x>300</x>
+                      <y>320</y>
                       <width>160</width>
                       <height>41</height>
                      </rect>
@@ -443,8 +443,8 @@ font-size:15px;
                    <widget class="QPushButton" name="btnc4">
                     <property name="geometry">
                      <rect>
-                      <x>720</x>
-                      <y>300</y>
+                      <x>480</x>
+                      <y>320</y>
                       <width>160</width>
                       <height>41</height>
                      </rect>
@@ -456,8 +456,8 @@ font-size:15px;
                    <widget class="QLabel" name="label_80">
                     <property name="geometry">
                      <rect>
-                      <x>160</x>
-                      <y>80</y>
+                      <x>50</x>
+                      <y>100</y>
                       <width>111</width>
                       <height>31</height>
                      </rect>
@@ -472,8 +472,8 @@ font-size:15px;
                    <widget class="QLabel" name="label_81">
                     <property name="geometry">
                      <rect>
-                      <x>540</x>
-                      <y>80</y>
+                      <x>300</x>
+                      <y>100</y>
                       <width>111</width>
                       <height>31</height>
                      </rect>
@@ -488,8 +488,8 @@ font-size:15px;
                    <widget class="QLabel" name="label_82">
                     <property name="geometry">
                      <rect>
-                      <x>540</x>
-                      <y>180</y>
+                      <x>300</x>
+                      <y>200</y>
                       <width>111</width>
                       <height>31</height>
                      </rect>
@@ -504,8 +504,8 @@ font-size:15px;
                    <widget class="QLabel" name="label_83">
                     <property name="geometry">
                      <rect>
-                      <x>720</x>
-                      <y>180</y>
+                      <x>480</x>
+                      <y>200</y>
                       <width>111</width>
                       <height>31</height>
                      </rect>
@@ -520,8 +520,8 @@ font-size:15px;
                    <widget class="QLabel" name="label_84">
                     <property name="geometry">
                      <rect>
-                      <x>720</x>
-                      <y>270</y>
+                      <x>480</x>
+                      <y>290</y>
                       <width>111</width>
                       <height>31</height>
                      </rect>
@@ -536,8 +536,8 @@ font-size:15px;
                    <widget class="QLabel" name="label_85">
                     <property name="geometry">
                      <rect>
-                      <x>540</x>
-                      <y>270</y>
+                      <x>300</x>
+                      <y>290</y>
                       <width>111</width>
                       <height>31</height>
                      </rect>
@@ -547,6 +547,67 @@ font-size:15px;
                     </property>
                     <property name="text">
                      <string>btnc3</string>
+                    </property>
+                   </widget>
+                   <widget class="QComboBox" name="cboxc3">
+                    <property name="geometry">
+                     <rect>
+                      <x>700</x>
+                      <y>130</y>
+                      <width>241</width>
+                      <height>51</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QComboBox{
+combobox-popup: 0;
+font-size:15px;
+}</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_123">
+                    <property name="geometry">
+                     <rect>
+                      <x>700</x>
+                      <y>100</y>
+                      <width>111</width>
+                      <height>31</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font-size:15px;</string>
+                    </property>
+                    <property name="text">
+                     <string>cboxc3</string>
+                    </property>
+                   </widget>
+                   <widget class="QPushButton" name="btnc5">
+                    <property name="geometry">
+                     <rect>
+                      <x>700</x>
+                      <y>230</y>
+                      <width>241</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>Get Item</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_125">
+                    <property name="geometry">
+                     <rect>
+                      <x>700</x>
+                      <y>200</y>
+                      <width>111</width>
+                      <height>31</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font-size:15px;</string>
+                    </property>
+                    <property name="text">
+                     <string>btnc5</string>
                     </property>
                    </widget>
                   </widget>

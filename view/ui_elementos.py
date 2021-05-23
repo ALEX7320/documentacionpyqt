@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'ui_elementosRBCIKC.ui'
+## Form generated from reading UI file 'ui_elementosoPyuzp.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -153,54 +153,72 @@ class Ui_Elementos(object):
         self.cboxc1.addItem("")
         self.cboxc1.addItem("")
         self.cboxc1.setObjectName(u"cboxc1")
-        self.cboxc1.setGeometry(QRect(160, 110, 281, 51))
+        self.cboxc1.setGeometry(QRect(50, 130, 181, 51))
         self.cboxc1.setStyleSheet(u"QComboBox{\n"
 "combobox-popup: 0;\n"
 "font-size:15px;\n"
 "}")
         self.cboxc2 = QComboBox(self.frame_8)
         self.cboxc2.setObjectName(u"cboxc2")
-        self.cboxc2.setGeometry(QRect(540, 110, 341, 51))
+        self.cboxc2.setGeometry(QRect(300, 130, 341, 51))
         self.cboxc2.setStyleSheet(u"QComboBox{\n"
 "combobox-popup: 0;\n"
 "font-size:15px;\n"
 "}")
         self.btnc1 = QPushButton(self.frame_8)
         self.btnc1.setObjectName(u"btnc1")
-        self.btnc1.setGeometry(QRect(540, 210, 160, 41))
+        self.btnc1.setGeometry(QRect(300, 230, 160, 41))
         self.btnc2 = QPushButton(self.frame_8)
         self.btnc2.setObjectName(u"btnc2")
-        self.btnc2.setGeometry(QRect(720, 210, 160, 41))
+        self.btnc2.setGeometry(QRect(480, 230, 160, 41))
         self.btnc3 = QPushButton(self.frame_8)
         self.btnc3.setObjectName(u"btnc3")
-        self.btnc3.setGeometry(QRect(540, 300, 160, 41))
+        self.btnc3.setGeometry(QRect(300, 320, 160, 41))
         self.btnc4 = QPushButton(self.frame_8)
         self.btnc4.setObjectName(u"btnc4")
-        self.btnc4.setGeometry(QRect(720, 300, 160, 41))
+        self.btnc4.setGeometry(QRect(480, 320, 160, 41))
         self.label_80 = QLabel(self.frame_8)
         self.label_80.setObjectName(u"label_80")
-        self.label_80.setGeometry(QRect(160, 80, 111, 31))
+        self.label_80.setGeometry(QRect(50, 100, 111, 31))
         self.label_80.setStyleSheet(u"font-size:15px;")
         self.label_81 = QLabel(self.frame_8)
         self.label_81.setObjectName(u"label_81")
-        self.label_81.setGeometry(QRect(540, 80, 111, 31))
+        self.label_81.setGeometry(QRect(300, 100, 111, 31))
         self.label_81.setStyleSheet(u"font-size:15px;")
         self.label_82 = QLabel(self.frame_8)
         self.label_82.setObjectName(u"label_82")
-        self.label_82.setGeometry(QRect(540, 180, 111, 31))
+        self.label_82.setGeometry(QRect(300, 200, 111, 31))
         self.label_82.setStyleSheet(u"font-size:15px;")
         self.label_83 = QLabel(self.frame_8)
         self.label_83.setObjectName(u"label_83")
-        self.label_83.setGeometry(QRect(720, 180, 111, 31))
+        self.label_83.setGeometry(QRect(480, 200, 111, 31))
         self.label_83.setStyleSheet(u"font-size:15px;")
         self.label_84 = QLabel(self.frame_8)
         self.label_84.setObjectName(u"label_84")
-        self.label_84.setGeometry(QRect(720, 270, 111, 31))
+        self.label_84.setGeometry(QRect(480, 290, 111, 31))
         self.label_84.setStyleSheet(u"font-size:15px;")
         self.label_85 = QLabel(self.frame_8)
         self.label_85.setObjectName(u"label_85")
-        self.label_85.setGeometry(QRect(540, 270, 111, 31))
+        self.label_85.setGeometry(QRect(300, 290, 111, 31))
         self.label_85.setStyleSheet(u"font-size:15px;")
+        self.cboxc3 = QComboBox(self.frame_8)
+        self.cboxc3.setObjectName(u"cboxc3")
+        self.cboxc3.setGeometry(QRect(700, 130, 241, 51))
+        self.cboxc3.setStyleSheet(u"QComboBox{\n"
+"combobox-popup: 0;\n"
+"font-size:15px;\n"
+"}")
+        self.label_123 = QLabel(self.frame_8)
+        self.label_123.setObjectName(u"label_123")
+        self.label_123.setGeometry(QRect(700, 100, 111, 31))
+        self.label_123.setStyleSheet(u"font-size:15px;")
+        self.btnc5 = QPushButton(self.frame_8)
+        self.btnc5.setObjectName(u"btnc5")
+        self.btnc5.setGeometry(QRect(700, 230, 241, 41))
+        self.label_125 = QLabel(self.frame_8)
+        self.label_125.setObjectName(u"label_125")
+        self.label_125.setGeometry(QRect(700, 200, 111, 31))
+        self.label_125.setStyleSheet(u"font-size:15px;")
 
         self.gridLayout_8.addWidget(self.frame_8, 1, 0, 1, 1)
 
@@ -1595,7 +1613,7 @@ class Ui_Elementos(object):
 
         self.retranslateUi(Elementos)
 
-        self.stackedWidget.setCurrentIndex(22)
+        self.stackedWidget.setCurrentIndex(1)
         self.stwp1.setCurrentIndex(0)
         self.tabq1.setCurrentIndex(0)
         self.tboxr1.setCurrentIndex(0)
@@ -1635,6 +1653,9 @@ class Ui_Elementos(object):
         self.label_83.setText(QCoreApplication.translate("Elementos", u"btnc2", None))
         self.label_84.setText(QCoreApplication.translate("Elementos", u"btnc4", None))
         self.label_85.setText(QCoreApplication.translate("Elementos", u"btnc3", None))
+        self.label_123.setText(QCoreApplication.translate("Elementos", u"cboxc3", None))
+        self.btnc5.setText(QCoreApplication.translate("Elementos", u"Get Item", None))
+        self.label_125.setText(QCoreApplication.translate("Elementos", u"btnc5", None))
         self.label_4.setText(QCoreApplication.translate("Elementos", u"QCalendarWidget", None))
         self.btnd1.setText(QCoreApplication.translate("Elementos", u"mes anterior", None))
         self.btnd2.setText(QCoreApplication.translate("Elementos", u"mes siguiente", None))
